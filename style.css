@@ -359,7 +359,7 @@ main {
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 520px) {
     .pfp {
         height: 100px;
     }
@@ -410,5 +410,6 @@ main {
         margin-right: 12px;
         display: block;
         text-align: center;
+        margin: 10px;
     }
 }
