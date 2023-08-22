@@ -132,6 +132,10 @@ main {
     text-indent: 10px;
 }
 
+#desc {
+    text-align: justify;
+}
+
 .pfp {
     height: 250px;
     border: 1px solid rgba(255, 255, 255, 0.096);
