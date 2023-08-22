@@ -286,7 +286,8 @@ html{
     }
 
     .ibages {
-        width: 45%;
+        width: 100%;
+        height: 100%;
     }
 
     #upheader {
@@ -332,7 +333,8 @@ html{
     }
 
     .ibages {
-        width: 60%;
+        width: 100%;
+        height: 100%;
     }
 
     nav {
@@ -390,7 +392,8 @@ html{
     }
 
     .ibages {
-        width: 95%;
+        width: 100%;
+        height: 100%;
     }
 
     nav {
@@ -442,7 +445,8 @@ html{
     }
 
     .ibages {
-        width: 95%;
+        width: 100%;
+        height: 100%;
     }
 
     nav {
