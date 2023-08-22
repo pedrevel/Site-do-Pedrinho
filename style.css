@@ -29,7 +29,8 @@ a {
 
 .desc {
     font-weight: 500;
-    margin-bottom: 5px;
+    margin-bottom: 25px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.096);
 
 }
 
@@ -107,16 +108,22 @@ main {
     flex-direction: row;
     background-color: #2B2E35;
     width: 1200px;
-    height: 300px;
+    height: 500px;
     border: 1px solid rgba(255, 255, 255, 0.096);
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+}
+
+#campos{
+    display: flex;
+    flex-direction: column;
 }
 
 .descricao {
     height: 200px;
     width: 820px;
     margin-left: 50px;
+    margin-top: 10px;
     background-color: #25262B;
     border-radius: 10px;
     border: 1px solid rgba(255, 255, 255, 0.096);
@@ -129,6 +136,8 @@ main {
     border: 1px solid rgba(255, 255, 255, 0.096);
     border-radius: 1000px;
     margin-left: 25px;
+    align-self: flex-start;
+    margin-top: 50px;
 }
 
 .conteudo {
@@ -154,7 +163,7 @@ main {
     max-width: 100%;
     border-radius: 10px;
     padding: 5px;
-    height: 500px;
+    height: 600px;
 }
 
 .titulo {
@@ -198,6 +207,11 @@ main {
 
 .sla {
     color: #00A884;
+    margin-bottom: 25px;
+}
+
+html{
+    scroll-behavior: smooth;
 }
 
 
